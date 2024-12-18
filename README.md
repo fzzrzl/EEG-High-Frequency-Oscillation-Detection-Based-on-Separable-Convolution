@@ -27,7 +27,7 @@ python get_results.py --test_path=r'/home/test/' --save_path='model_conv_kernel1
 * save_path: 模型保存地址。
 
 ### 3. 计算 F1 分数脚本 (`cal_F1.py`)
-输出classification report
+输出classification report。
 ### 示例
 ```bash
 python cal_F1.py
