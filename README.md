@@ -21,7 +21,7 @@ python train_model.py --train_path=r'/home/train/*.csv' --val_path=r'/home/valid
 获取预测结果prediction_lables.txt。
 ### 示例
 ```bash
-python get_results.py --test_path=r'/home/test/' --save_path='model_conv_kernel17_9459.pth' --device='cuda:0'
+python get_results.py --test_path='/home/test/' --save_path='model_conv_kernel17_9459.pth' --device='cuda:0'
 ```
 * test_path: 测试数据集文件夹地址。
 * save_path: 模型保存地址。
